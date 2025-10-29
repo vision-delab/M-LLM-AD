@@ -1,0 +1,2 @@
+pip install huggingface-hub
+huggingface-cli download Qwen/Qwen2-VL-7B-Instruct --local-dir Qwen2-VL-7B-Instruct

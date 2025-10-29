@@ -1,0 +1,106 @@
+[
+    {
+        "type": "freq",
+        "caption": {
+            "trend": "The trend component is constant, indicating no significant long-term increase or decrease over time.",
+            "seasonality": "The seasonal component exhibits a clear periodic pattern with a period of 33, showing regular fluctuations that repeat every 33 time units.",
+            "shape": "The overall shape of the time series is cyclic, with a repeating pattern of peaks and troughs.",
+            "state": "The data appears to be stable, with no abrupt changes or anomalies detected in the trend or seasonal components.",
+            "range": [
+                -1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "type": "trend",
+        "caption": {
+            "trend": "The trend component shows a steady increase over time.",
+            "seasonality": "The seasonal component exhibits a regular pattern with a period of 50, indicating a cyclic behavior.",
+            "shape": "The overall shape of the time series is a combination of a steady increase and a cyclic pattern.",
+            "state": "The data appears to be fluctuating with a clear trend and seasonal pattern.",
+            "range": [
+                -1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "type": "point",
+        "caption": {
+            "trend": "The trend component is a horizontal line at zero, indicating no overall upward or downward movement over time.",
+            "seasonality": "The seasonal component exhibits a clear periodic pattern with a period of 33, showing regular fluctuations that repeat every 33 time units.",
+            "shape": "The overall shape of the time series is cyclic, with the seasonal component creating a wave-like pattern.",
+            "state": "The data is stable, with no significant changes or anomalies detected in either the trend or seasonal components.",
+            "range": [
+                -1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "type": "range",
+        "caption": {
+            "trend": "The trend component is nearly flat, indicating a stable and consistent level over time.",
+            "seasonality": "The seasonal component exhibits a clear periodic pattern with a period of 40, showing regular fluctuations that repeat every 40 time units.",
+            "shape": "The overall shape of the time series is relatively flat with minor fluctuations.",
+            "state": "The data appears to be stable with minor variations, suggesting a lack of significant changes or anomalies.",
+            "range": [
+                -0.325,
+                0.315
+            ]
+        }
+    },
+    {
+        "type": "flat-trend",
+        "caption": {
+            "trend": "The trend component shows a steady increase over time.",
+            "seasonality": "The seasonal component exhibits a regular pattern with a period of 50, indicating a cyclic behavior.",
+            "shape": "The overall shape of the time series is a combination of a steady increase and a cyclic pattern.",
+            "state": "The data appears to be fluctuating with a clear trend and seasonal pattern.",
+            "range": [
+                -1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "type": "noisy-freq",
+        "caption": {
+            "trend": "The trend component is relatively flat, indicating no significant long-term increase or decrease in the data.",
+            "seasonality": "The seasonal component exhibits a clear periodic pattern with a period of 33, showing regular fluctuations that repeat every 33 time units.",
+            "shape": "The overall shape of the time series is cyclic, with the seasonal component dominating the visual representation.",
+            "state": "The data appears to be stable, with no abrupt changes or anomalies detected in the trend or seasonal components.",
+            "range": [
+                -1.176,
+                1.207
+            ]
+        }
+    },
+    {
+        "type": "noisy-point",
+        "caption": {
+            "trend": "The trend component is relatively flat, indicating no significant long-term increase or decrease over time.",
+            "seasonality": "The seasonal component exhibits a clear periodic pattern with a period of 33, showing regular fluctuations that repeat every 33 time units.",
+            "shape": "The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.",
+            "state": "The data appears to be stable, with no abrupt changes or anomalies detected in either the trend or seasonal components.",
+            "range": [
+                -1.161,
+                1.129
+            ]
+        }
+    },
+    {
+        "type": "noisy-trend",
+        "caption": {
+            "trend": "The trend component shows a steady increase over time.",
+            "seasonality": "The seasonal component exhibits a regular pattern with a period of 50, indicating cyclic behavior.",
+            "shape": "The overall shape of the time series is a combination of a steady increase and a cyclic pattern.",
+            "state": "The data appears to be fluctuating with both a trend and a seasonal pattern.",
+            "range": [
+                -1.149,
+                1.042
+            ]
+        }
+    }
+]

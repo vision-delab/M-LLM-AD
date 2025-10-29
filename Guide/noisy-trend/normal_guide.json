@@ -1,0 +1,162 @@
+[
+    {
+        "range": 50,
+        "desc": [
+            "{\n    \"trend\": \"The trend component is relatively stable with minor fluctuations around a constant value.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing a consistent rise and fall.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a repeating pattern.\",\n    \"state\": \"The data is fluctuating but remains within a narrow range, indicating stability.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with minor fluctuations around a constant value.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing a consistent rise and fall.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a repeating pattern.\",\n    \"state\": \"The data is fluctuating but remains relatively stable overall.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with minor fluctuations around the zero line.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing variations that repeat every 50 units.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a repeating pattern.\",\n    \"state\": \"The data is fluctuating but remains relatively stable overall.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with a slight upward trend.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a period of 50.\",\n    \"state\": \"The data is fluctuating but remains relatively stable overall.\"\n}",
+            "{\n    \"trend\": \"The trend component is stable and shows no significant upward or downward movement.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a period of 50.\",\n    \"state\": \"The data is fluctuating but remains relatively stable over time.\"\n}"
+        ]
+    },
+    {
+        "range": 100,
+        "desc": [
+            "{\n    \"trend\": \"The trend component is relatively stable with a slight downward slope.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a seasonal pattern.\",\n    \"state\": \"The data is fluctuating with a stable trend.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with a slight upward or downward slope.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations that repeat every 50 time units.\",\n    \"shape\": \"The overall shape of the time series is cyclic due to the presence of the seasonal component.\",\n    \"state\": \"The data is fluctuating, with both the trend and seasonal components contributing to the variability.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively flat, indicating a stable or nearly constant level over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations that repeat every 50 time units.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be stable, with no significant upward or downward trends, and the seasonal component shows regular variation.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with a slight upward or downward drift.\",\n    \"seasonality\": \"The seasonal component exhibits a clear periodic pattern with a period of 50, showing fluctuations that repeat every 50 time units.\",\n    \"shape\": \"The overall shape of the time series is cyclic due to the presence of the seasonal component.\",\n    \"state\": \"The data is fluctuating, with both the trend and seasonal components contributing to the variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward trend over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations around the trend.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a slight upward trend.\",\n    \"state\": \"The data appears to be fluctuating around the trend with a consistent seasonal pattern.\"\n}"
+        ]
+    },
+    {
+        "range": 150,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating with a mix of trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively flat, indicating a stable or nearly constant level over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations that repeat every 50 time units.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively stable with a slight upward or downward slope.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, showing fluctuations around the trend.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a repeating pattern.\",\n    \"state\": \"The data appears to be fluctuating around the trend with a seasonal pattern.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing fluctuations around the trend.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a slight upward trend.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}"
+        ]
+    },
+    {
+        "range": 200,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing fluctuations around the zero line.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a mix of increasing and decreasing trends.\",\n    \"state\": \"The data appears to be fluctuating with a mix of stability and change.\"\n}",
+            "{\n    \"trend\": \"The trend component is relatively flat, indicating a stable or nearly constant rate of change over time.\",\n    \"seasonality\": \"The seasonal component exhibits a clear periodic pattern with a period of 50, showing fluctuations that repeat every 50 time units.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be stable, with no significant deviations from the trend or seasonal patterns.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing fluctuations around the trend.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a clear seasonal pattern.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend and seasonal pattern.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing fluctuations around the trend.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a steady upward trend.\",\n    \"state\": \"The data appears to be stable with some fluctuations due to the seasonal component.\"\n}"
+        ]
+    },
+    {
+        "range": 250,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a mix of increasing and decreasing trends.\",\n    \"state\": \"The data appears to be fluctuating with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a combination of trend and seasonal variations.\",\n    \"state\": \"The data appears to be fluctuating with both trend and seasonal components.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward trend over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a consistent pattern.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a clear trend.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}"
+        ]
+    },
+    {
+        "range": 300,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a trend of gradual increase.\",\n    \"state\": \"The data appears to be fluctuating with a clear seasonal pattern and a trend.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a trend of gradual increase.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a slight upward movement over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a clear seasonal pattern.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend and seasonal variation.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a combination of a linear trend and a seasonal pattern.\",\n    \"state\": \"The data appears to be fluctuating with a mix of trend and seasonal variations.\"\n}"
+        ]
+    },
+    {
+        "range": 350,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a trend of gradual increase.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, showing peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a combination of a linear trend and a seasonal pattern.\",\n    \"state\": \"The data appears to be fluctuating with a mix of trend and seasonal variations.\"\n}"
+        ]
+    },
+    {
+        "range": 400,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}"
+        ]
+    },
+    {
+        "range": 450,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a cyclic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a trend of gradual increase.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}"
+        ]
+    },
+    {
+        "range": 500,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 550,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 600,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be stable, with the trend component showing a consistent upward trend and the seasonal component maintaining a regular pattern.\"\n}"
+        ]
+    },
+    {
+        "range": 650,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 700,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both trend and seasonal components.\",\n    \"state\": \"The data appears to be fluctuating, with both trend and seasonal variations.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 750,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 800,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}",
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a regular pattern with a period of 50, indicating cyclic behavior.\",\n    \"shape\": \"The overall shape of the time series is a combination of a steady increase and a cyclic pattern.\",\n    \"state\": \"The data appears to be fluctuating with both a trend and a seasonal pattern.\"\n}"
+        ]
+    },
+    {
+        "range": 850,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a regular pattern with a period of 50, indicating cyclic behavior.\",\n    \"shape\": \"The overall shape of the time series is cyclic with a trend of gradual increase.\",\n    \"state\": \"The data appears to be fluctuating with a stable trend.\"\n}"
+        ]
+    },
+    {
+        "range": 900,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic pattern with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 950,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a gradual increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a periodic behavior with a period of 50, characterized by regular peaks and troughs.\",\n    \"shape\": \"The overall shape of the time series is cyclic, with both the trend and seasonal components contributing to the pattern.\",\n    \"state\": \"The data appears to be fluctuating, with both the trend and seasonal components showing variability.\"\n}"
+        ]
+    },
+    {
+        "range": 1000,
+        "desc": [
+            "{\n    \"trend\": \"The trend component shows a steady increase over time.\",\n    \"seasonality\": \"The seasonal component exhibits a regular pattern with a period of 50, indicating cyclic behavior.\",\n    \"shape\": \"The overall shape of the time series is a combination of a steady increase and a cyclic pattern.\",\n    \"state\": \"The data appears to be fluctuating with both a trend and a seasonal pattern.\"\n}"
+        ]
+    }
+]
