@@ -34,7 +34,7 @@ We downloaded **Qwen2-VL** using the command above and moved the LLM files to ``
 We used the **MOMENT (ICML'24)** model to generate and utilize guides. For more details, please refer to the GitHub link above.
 
 ## 3. Command
-```class_name (synthetic)```: [flat-trend, freq, noisy-freq, noisy-point, noisy-trend, point, range, trend]
+```class_name (synthetic)```: [freq, point, range, trend]
 - run_baseline.py
 ```bash
 python run_baseline.py --dataset='synthetic' --class_name='freq' --set_image=True  # set image -> inference -> evaluation
