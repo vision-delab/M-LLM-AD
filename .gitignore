@@ -4,4 +4,5 @@ __pycache__/
 *.sh
 
 pretrained_lad_model/log/*
+**/*.xlsx
 !log/.keep
