@@ -1,11 +1,15 @@
 # LogLLM: Log-based Anomaly Detection Using Large Language Models #
 
 # 실행 가이드
-https://www.notion.so/Pre-trained-Model-2a0551eaeee88040b8f9fa2995400091?source=copy_link
-
+📄 https://www.notion.so/Pre-trained-Model-2a0551eaeee88040b8f9fa2995400091?source=copy_link
 
 # LogLLM 구현 상세
-https://www.notion.so/LogLLM-Implementation-299551eaeee880419675e33fb2b5142f
+📄 https://www.notion.so/LogLLM-Implementation-299551eaeee880419675e33fb2b5142f
+
+- 일부 log dataset 크기가 매우 커서, datacenter의 scratch 경로에 데이터 저장해두었음.
+- eval 코드 실행 시, Huggingface Account 정보 입력 필요함.
+- datacenter, huggingface 계정 정보, 실행 방법 등 자세한 내용은 위 notion 링크 참조(초대받은 사용자만 열람 가능)
+
 
 
 ## Datasets
