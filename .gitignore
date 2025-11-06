@@ -3,5 +3,5 @@ __pycache__/
 
 *.sh
 
-log/*
+pretrained_lad_model/log/*
 !log/.keep
