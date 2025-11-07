@@ -2,11 +2,17 @@ import os.path
 import numpy as np
 import pandas as pd
 from helper import sliding_window, fixedSize_window, structure_log
-
+import sys
 #### for Thunderbird, Liberty, BGL
 
-data_dir = '/scratch/jyy1551/LAD/LogLLM/Datasets/pred/Thunderbird'
-log_name = "Thunderbird.log"
+try:
+    dataset_name = sys.argv[1]
+except IndexError:
+    print("dataset 이름을 인자로 전달해야 함.")
+    sys.exit(1)
+
+data_dir = f'/scratch/jyy1551/LAD/LogLLM/Datasets/pred/{dataset_name}'
+log_name = f"{dataset_name}.log"
 
 start_line = 0
 end_line = None
