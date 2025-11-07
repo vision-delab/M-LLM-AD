@@ -10,7 +10,7 @@ LLM을 활용한 로그 이상 탐지 프레임워크
 2.  **User-Defined Path (Log + Keyword):**
     * 사용자가 정의한 `Keyword`와 LLM에 함께 입력하여, 사용자 의도에 맞는 맞춤형 이상 징후를 탐지함.
 
-![LAD Framework](LAD_framework.png)
+
 
 ## 🚀 시작하기 (Getting Started)
 (통합 후 업데이트 예정)
