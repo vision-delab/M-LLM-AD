@@ -1,7 +1,8 @@
-# 🕵️ Log Anomaly Detection (LAD) Framework
+# Log Anomaly Detection (LAD) Framework
 LLM을 활용한 로그 이상 탐지 프레임워크
+* Paper: LogLLM: Log-based Anomaly Detection Using Large Language Models(https://arxiv.org/abs/2411.08561)
 
-## 🖼️ 프레임워크 개요
+## 프레임워크 개요
 본 프레임워크는 두 가지 독립적인 경로를 통해 로그 이상 탐지를 수행함.
 
 1.  **Original Path (Log Only):**
