@@ -1,0 +1,25 @@
+12-17 19:56:50.356  1795  2728 E HwCHRWifiRSSIGroupSummery: updateTcpSummery mRSSI:-67  HwCHRWifiRSSIGroup [rssi_index=3, rtt_tcp_packets=9, rtt_tcp_duration=22, rtt_lan_duration=25, rtt_lan_failures=0, rtt_lan_succ=1, rtt_lan_max=25, rtt_lan_min=25,same_area_frequency=0,adjacent_area_frequency=0]
+12-18 14:12:23.959  5157  5157 I chromium: [INFO:CONSOLE(1)] "Uncaught ReferenceError: WebViewJavascriptBridge is not defined", source:  (1)
+12-18 00:19:11.639  2852  2852 I HwSignalClusterView: apply hwPhoneState.mSubId:0 anyMobileVisible:false mIsAirplaneMode:false, mobileGroupVisible=true
+12-17 23:57:41.860   633 31870 I SDK     : <2016-12-17 23:57:41> [WARN] SDK: UE-SeC 2016-12-17 23:57:41:860 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[65] from the Socket-table Failed!
+12-18 01:04:54.774  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-18 11:26:11.066  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-18 14:14:12.460  3218  3234 I PhoneInterfaceManager: shouldBlockLocation  ret:false
+12-18 00:19:38.332  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-18 19:25:16.999 24448 24483 I HwOUC   : [CheckNewVersionThread-6698]info is not null, so return the value from cache(hwouc/HwOucUtility.java:1879)
+12-17 20:31:44.976 24766 24766 I nativeProcess: iqiyi message: failed to open /proc/31558/cmdline
+12-18 07:35:34.719  1795  2380 D PowerManagerService: ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=true,manual=33,auto=-1,adj=0.0userId=0
+12-17 20:26:03.478  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-18 07:40:59.484 20349 20349 I 2DSDR   : APS: 2DSDR: AbsListView.FlingRunnable.run(), SDR ratio = 1.0, layer height = 1920, scroll view height = 1494
+12-18 00:00:00.025  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-18 09:23:37.458  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 20:22:10.096  2852  2925 I EventCenter: ContentChange for slot: 1
+12-17 20:27:42.820  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 20:48:08.074  2852  2852 I HwSignalClusterView: getOrInflateState subId:0
+12-17 20:19:04.250  1795  2778 E PF_API_NATIVE: check perfhub service fail!
+12-17 21:35:42.184   633 31870 I SDK     : <2016-12-17 21:35:42> [WARN] SDK: UE-SeC 2016-12-17 21:35:42:184 Level[WARN] magic[3362781472 684]:PubEvt_Close Getting a socket[47] from the Socket-table Failed!
+12-18 08:23:06.455  1795 15988 D HwPowerManagerService: setColorTemperature:128
+12-18 13:11:19.727  2852  2852 I NotificationGroupManager: onEntryAdded:0|com.huawei.health|10010|null|10099, group=0|com.huawei.health|10010|null|10099
+12-17 21:22:40.934  3626  4889 E PTM.FileNodeInfo: getTempInfo error: null, 0
+12-17 22:31:34.741 30932 30945 I AppLogManager: PrintWoker poll timeout , shutdown
+12-18 10:50:57.003  3626  3626 E PTM.FileNodeInfo: getTempInfo error: null, 0

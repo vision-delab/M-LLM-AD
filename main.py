@@ -23,7 +23,7 @@ if dataset in ["BGL", "Thunderbird", "HDFS_v1"]:
     sbatch_command = [
         "sbatch",
         "-o",
-        f"/home/jyy1551/LAD/LogLLM/log/LogLLM_{dataset}_ft_%j.log",
+        f"/home/jyy1551/LAD/pretrained_lad_model/log/LogLLM_{dataset}_ft_%j.log",
         "bash.sh",
         dataset  # [BGL, Thunderbird, HDFS_v1]
     ]
