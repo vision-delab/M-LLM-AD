@@ -1,5 +1,14 @@
 # LogLLM: Log-based Anomaly Detection Using Large Language Models #
 
+# 가상환경 세팅
+```
+conda create -n logllm python=3.9
+conda activate logllm
+
+conda install pip
+pip install -r requirements.txt
+```　
+
 # 실행 가이드
 📄 https://www.notion.so/Pre-trained-Model-2a0551eaeee88040b8f9fa2995400091?source=copy_link
 
