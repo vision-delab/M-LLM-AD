@@ -222,7 +222,7 @@ def evalModel(model, dataloader):
         
         # 시트에 핫스팟 플롯 이미지 삽입
         img_hotspot = Image(hotspot_plot_filename)
-        img_hotspot.anchor = 'B15' # (B열 15행 근처에 이미지 위치)
+        img_hotspot.anchor = 'B15'
         sheet_dashboard.add_image(img_hotspot)
         
         # (선택) 시트 컬럼 너비 자동 조절
@@ -230,10 +230,8 @@ def evalModel(model, dataloader):
         sheet_dashboard.column_dimensions['C'].width = 20
 
         # --- 시트 2: Detailed Logs (하이라이트 적용) ---
-        # 이전에 만든 'styled_df' 객체를 사용합니다.
         styled_df.to_excel(writer, sheet_name='Detailed_Logs', index=False)
         
-        # --- (선택) 시트 3: 핫스팟 플롯 원본 데이터 ---
         df_preds.to_excel(writer, sheet_name='Hotspot_Plot_Data', index=False)
 
     print(f"\nIntegration report successfully saved to {report_excel_filename}")
@@ -242,7 +240,6 @@ def evalModel(model, dataloader):
 
 
 if __name__ == '__main__':
-
     # 2. [수정] argparse로 받은 값으로 전역 변수를 *먼저* 덮어씁니다.
     dataset_name = args.dataset_name
     data_path = r'/scratch/jyy1551/LAD/LogLLM/Datasets/pred/{dataset_name}/pred.csv'.format(dataset_name=dataset_name)
