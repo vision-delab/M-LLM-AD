@@ -37,6 +37,8 @@ def evalModel(model, dataloader):
     labels = []
     results_list = []
 
+    output_paths = {} # 반환 파일 저장 dictionary
+
     model.eval()
     with torch.no_grad():
         for bathc_i in tqdm(dataloader):
@@ -73,7 +75,15 @@ def evalModel(model, dataloader):
                 })
     df_results=pd.DataFrame(results_list)
 
+    # 원본 로그/예측 결과 csv 저장 
     # highlighting anomalous data
+    csv_fileName = f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_detailed_logs.csv"
+    df_results.to_csv(csv_filename, index=False)
+    output_paths['detailed_logs_csv'] = csv_filename
+    print(f"Detailed logs saved to {csv_filename}")
+
+
+
     def highlight_anomalous_row(row):
         if row['Model_Clean_Prediction'] == 'anomalous':
             return ['background-color: #FFCDD2']*len(row)
@@ -81,8 +91,9 @@ def evalModel(model, dataloader):
             return ['']*len(row)
     
     styled_df = df_results.style.apply(highlight_anomalous_row, axis=1)
-    excel_filename=f"logllm_{dataset_name}_block_30_predictions_styled_2.xlsx"
+    excel_filename=f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_block_30_predictions_styled_2.xlsx"
     styled_df.to_excel(excel_filename, index=False, engine='openpyxl')
+    output_paths['styled_logs_excel'] = excel_filename
     print(f"Styled results saved to {excel_filename}")
 
 
@@ -144,8 +155,9 @@ def evalModel(model, dataloader):
             startangle=90)
     ax_pie.axis('equal')
     ax_pie.set_title('Anomaly Detection Summary')
-    pie_chart_filename = f"logllm_{dataset_name}_summary_pie.png"
+    pie_chart_filename = f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_summary_pie.png"
     fig_pie.savefig(pie_chart_filename)
+    output_paths['summary_pie_chart'] = pie_chart_filename # (수정) 경로 저장
     plt.close(fig_pie)
     print(f"Pie chart saved to {pie_chart_filename}")
 
@@ -158,14 +170,21 @@ def evalModel(model, dataloader):
     ax_hotspot.set_xlabel('Block Index (Sequence)')
     ax_hotspot.set_ylabel('Anomaly Rate in Window')
     ax_hotspot.grid(True)
-    hotspot_plot_filename = f"logllm_{dataset_name}_hotspot_plot.png"
+    hotspot_plot_filename = f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_hotspot_plot.png"
     fig_hotspot.savefig(hotspot_plot_filename)
+    output_paths['hotspot_plot'] = hotspot_plot_filename
     plt.close(fig_hotspot)
     print(f"Hotspot plot saved to {hotspot_plot_filename}")
 
+    hotspot_data_filename = f"logllm_{dataset_name}_hotspot_data.csv"
+    df_preds.to_csv(hotspot_data_filename, index=False)
+    output_paths['hotspot_data_csv'] = hotspot_data_filename
+    print(f"Hotspot plot data saved to {hotspot_data_filename}")
+
     # === 3. ExcelWriter로 다중 시트 리포트 생성 ===
     
-    report_excel_filename = f"logllm_{dataset_name}_visual_report.xlsx"
+    report_excel_filename = f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_visual_report.xlsx"
+    output_paths['integrated_report_excel'] = report_excel_filename
     with pd.ExcelWriter(report_excel_filename, engine='openpyxl') as writer:
         
         # --- 시트 1: Dashboard ---
@@ -185,6 +204,10 @@ def evalModel(model, dataloader):
             ]
         }
         df_kpi = pd.DataFrame(kpi_data)
+        kpi_csv_filename = f"/home/jyy1551/LAD/pretrained_lad_model/results/logllm_{dataset_name}_kpi_summary.csv"
+        df_kpi.to_csv(kpi_csv_filename, index=False)
+        output_paths['kpi_summary_csv'] = kpi_csv_filename
+        print(f"KPI summary data saved to {kpi_csv_filename}")
         
         # 'Dashboard' 시트에 KPI 데이터 작성
         df_kpi.to_excel(writer, sheet_name='Dashboard', startrow=1, startcol=1, index=False)
@@ -214,16 +237,8 @@ def evalModel(model, dataloader):
         df_preds.to_excel(writer, sheet_name='Hotspot_Plot_Data', index=False)
 
     print(f"\nIntegration report successfully saved to {report_excel_filename}")
-    
-    # (선택) 임시 이미지 파일 삭제
-    try:
-        os.remove(pie_chart_filename)
-        os.remove(hotspot_plot_filename)
-    except OSError as e:
-        print(f"Error removing temporary chart files: {e}")
-        
-    # --- [ 통합 리포트 생성 종료 ] ---
-
+    print(f"output_paths: {output_paths}")
+    return output_paths
 
 
 if __name__ == '__main__':
