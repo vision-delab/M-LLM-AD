@@ -1,0 +1,25 @@
+2558399 node-127 action start 1073118369 1 wait  (command 1894)
+2558385 node-127 action start 1073118184 1 boot  (command 1894)
+2557567 node-230 action start 1072983739 1 wait  (command 1893)
+2557552 node-230 action start 1072983531 1 boot  (command 1893)
+2550694 node-140 action start 1072485005 1 wait  (command 1876)
+2550681 node-140 action start 1072484836 1 boot  (command 1876)
+2550614 node-226 action start 1072482073 1 wait  (command 1875)
+2550600 node-226 action start 1072481860 1 boot  (command 1875)
+2550559 node-157 action start 1072480083 1 wait  (command 1874)
+460903 resourcemgmtdaeomon node-25 server subsys 1145552216 1 failed to configure resourcemgmt subsystem err = 10
+460919 resourcemgmtdaeomon node-25 server subsys 1145552221 1 failed to configure resourcemgmt subsystem err = 10
+460932 resourcemgmtdaeomon node-25 server subsys 1145552226 1 failed to configure resourcemgmt subsystem err = 10
+460949 resourcemgmtdaeomon node-25 server subsys 1145552232 1 failed to configure resourcemgmt subsystem err = 10
+460971 resourcemgmtdaeomon node-25 server subsys 1145552237 1 failed to configure resourcemgmt subsystem err = 10
+462410 resourcemgmtdaeomon node-25 server subsys 1145552885 1 failed to configure resourcemgmt subsystem err = 10
+462413 resourcemgmtdaeomon node-25 server subsys 1145552891 1 failed to configure resourcemgmt subsystem err = 10
+2569425 node-70 action start 1074121036 1 risBoot  (command 1902)
+2569432 node-27 action start 1074121045 1 bootGenvmunix  (command 1903)
+2569436 node-196 action start 1074121048 1 bootGenvmunix  (command 1901)
+2569438 node-135 action start 1074121049 1 bootGenvmunix  (command 1899)
+2569443 node-236 action start 1074121057 1 clusterAddMember  (command 1905)
+463521 resourcemgmtdaeomon node-31 server subsys 1145554512 1 failed to configure resourcemgmt subsystem err = 10
+463779 resourcemgmtdaeomon node-25 server subsys 1145554547 1 failed to configure resourcemgmt subsystem err = 10
+463780 resourcemgmtdaeomon node-25 server subsys 1145554552 1 failed to configure resourcemgmt subsystem err = 10
+463781 resourcemgmtdaeomon node-25 server subsys 1145554558 1 failed to configure resourcemgmt subsystem err = 10

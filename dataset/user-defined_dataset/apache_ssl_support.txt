@@ -1,0 +1,25 @@
+[Thu Jun 09 06:07:04 2005] [notice] LDAP: SSL support unavailable
+[Thu Jun 09 06:07:05 2005] [notice] LDAP: SSL support unavailable
+[Thu Jun 09 07:11:21 2005] [error] [client 204.100.200.22] Directory index forbidden by rule: /var/www/html/
+[Thu Jun 09 12:08:57 2005] [error] [client 207.203.80.15] Directory index forbidden by rule: /var/www/html/
+[Thu Jun 09 12:17:49 2005] [error] [client 216.68.171.39] Directory index forbidden by rule: /var/www/html/
+[Fri Jun 10 11:32:26 2005] [notice] LDAP: SSL support unavailable
+[Fri Jun 10 11:32:26 2005] [notice] LDAP: SSL support unavailable
+[Thu Jun 09 06:07:04 2005] [notice] LDAP: Built with OpenLDAP LDAP SDK
+[Thu Jun 09 06:07:04 2005] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Jun 09 06:07:05 2005] [notice] Digest: generating secret for digest authentication ...
+[Thu Jun 09 06:07:05 2005] [notice] Digest: done
+[Wed Jul 27 14:42:39 2005] [notice] LDAP: SSL support unavailable
+[Wed Jul 27 14:42:40 2005] [notice] LDAP: SSL support unavailable
+[Wed Jul 27 14:42:40 2005] [error] env.createBean2(): Factory error creating channel.jni:jni ( channel.jni, jni)
+[Wed Jul 27 14:42:52 2005] [notice] jk2_init() Found child 2312 in scoreboard slot 3
+[Wed Jul 27 14:42:52 2005] [notice] jk2_init() Found child 2314 in scoreboard slot 5
+[Wed Jul 27 14:42:52 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Jul 27 14:42:52 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Jul 27 14:42:52 2005] [notice] jk2_init() Found child 2311 in scoreboard slot 2
+[Wed Jul 27 14:42:52 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Jul 27 14:42:52 2005] [notice] jk2_init() Found child 2310 in scoreboard slot 1
+[Wed Jul 27 14:42:52 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Wed Jul 27 14:42:52 2005] [notice] jk2_init() Found child 2309 in scoreboard slot 0
+[Wed Jul 27 14:42:52 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+[Sun Jul 31 04:08:48 2005] [notice] Graceful restart requested, doing restart
