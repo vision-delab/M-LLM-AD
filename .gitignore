@@ -2,7 +2,7 @@ __pycache__/
 *.pyc
 
 *.sh
-
+*.txt
 pretrained_lad_model/log/*
 **/*.xlsx
 !log/.keep
